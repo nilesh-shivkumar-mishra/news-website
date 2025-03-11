@@ -1,0 +1,209 @@
+.card {
+  width: 350px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px -5px;
+}
+
+.card-image {
+  width: 350px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.card-image img{
+  width: 350px;
+  height: 200px;
+
+  object-fit: cover; /* it will cover hole hight and wigth thet given to img*/
+  /* object-fit: contain; it will do not stract cover */
+  /* object-fit: fill; */
+}
+
+
+.card-content {
+  margin: 1rem;
+  margin-top: 0.5rem;
+}
+
+.author{
+  margin-top: 5px;
+}
+
+
+/* h2,p {
+  margin: 0;
+  padding: 0;
+} */
+
+.card-title {
+    margin-bottom: 0.3rem;
+  }
+
+  .card-button {
+    background-color: rgb(83, 83, 237);
+    padding: 6px;
+    font-size: 15px;
+  }
+
+  .card-button a {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color:white;
+    
+  }
+
+  @media  screen and (max-width:1320px) {
+    .card {
+      width: 300px;
+      overflow: hidden;
+      box-shadow: 0px 0px 15px -5px;
+    }
+    
+    .card-image {
+      width: 300px;
+      height: 175px;
+      overflow: hidden;
+    }
+    
+    .card-image img{
+      width: 300px;
+      height: 175px;
+    
+      object-fit: cover; /* it will cover hole hight and wigth thet given to img*/
+      /* object-fit: contain; it will do not stract cover */
+      /* object-fit: fill; */
+    }
+  }
+     
+  @media  screen and (max-width:1135px) {
+    .card {
+      width: 275px;
+      overflow: hidden;
+      box-shadow: 0px 0px 15px -5px;
+    }
+    
+    .card-image {
+      width: 275px;
+      height: 150px;
+      overflow: hidden;
+    }
+    
+    .card-image img{
+      width: 275px;
+      height: 150px;
+    
+      object-fit: cover; /* it will cover hole hight and wigth thet given to img*/
+      /* object-fit: contain; it will do not stract cover */
+      /* object-fit: fill; */
+    }
+  }
+  @media  screen and (max-width:999px) {
+    .card {
+      width: 350px;
+      overflow: hidden;
+      box-shadow: 0px 0px 15px -5px;
+    }
+    
+    .card-image {
+      width: 350px;
+      height: 200px;
+      overflow: hidden;
+    }
+    
+    .card-image img{
+      width: 350px;
+      height: 200px;
+    
+      object-fit: cover; /* it will cover hole hight and wigth thet given to img*/
+      /* object-fit: contain; it will do not stract cover */
+      /* object-fit: fill; */
+    }    
+  }
+
+  @media  screen and (max-width:850px) {
+    .card {
+      width: 300px;
+      overflow: hidden;
+      box-shadow: 0px 0px 15px -5px;
+    }
+    
+    .card-image {
+      width: 300px;
+      height: 175px;
+      overflow: hidden;
+    }
+    
+    .card-image img{
+      width: 300px;
+      height: 175px;
+    
+      object-fit: cover; /* it will cover hole hight and wigth thet given to img*/
+      /* object-fit: contain; it will do not stract cover */
+      /* object-fit: fill; */
+    }
+    }
+  @media  screen and (max-width:740px) {
+    .card {
+      width: 275px;
+      overflow: hidden;
+      box-shadow: 0px 0px 15px -5px;
+    }
+    
+    .card-image {
+      width: 275px;
+      height: 150px;
+      overflow: hidden;
+    }
+    
+    .card-image img{
+      width: 275px;
+      height: 150px;
+    
+      object-fit: cover; /* it will cover hole hight and wigth thet given to img*/
+      /* object-fit: contain; it will do not stract cover */
+      /* object-fit: fill; */
+    }
+    }
+  @media  screen and (max-width:690px) {
+    .card {
+      width: 500px;
+      overflow: hidden;
+      box-shadow: 0px 0px 15px -5px;
+    }
+    
+    .card-image {
+      width: 500px;
+      height: 300px;
+      overflow: hidden;
+    }
+    
+    .card-image img{
+      width: 500px;
+      height: 300px;
+    
+      object-fit: cover; /* it will cover hole hight and wigth thet given to img*/
+      /* object-fit: contain; it will do not stract cover */
+      /* object-fit: fill; */
+    }
+    }
+  @media  screen and (max-width:550px) {
+    .card {
+      width: 95vw;
+      overflow: hidden;
+    }
+    
+    .card-image {
+      width: 95vw;
+      height: 25vh;
+      overflow: hidden;
+    }
+    
+    .card-image img{
+      width: 95vw;
+      height: 25vh;
+    
+      object-fit: cover; /* it will cover hole hight and wigth thet given to img*/
+      /* object-fit: contain; it will do not stract cover */
+      /* object-fit: fill; */
+    }
+    }

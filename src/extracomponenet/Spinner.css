@@ -1,0 +1,7 @@
+.spinner{
+    max-width: 75vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
